@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive, Geneva, Tahoma, Sans-serif;
+}
+header{
+	background-color: black;
+	padding-top: 2%;
+	padding-bottom: 2%; 
+}
+.carrier{
+	display: flex;
+	justify-content: space-around;
+}
+.carrier h1{
+	color: white;
+}
+span{
+	font-weight: 850;
+	font-size: 32pt;
+}
+.carrier a{
+	text-decoration: none;
+	color: black;
+	padding-top: 1.8%;
+	color: darkgrey;
+}
+.carrier a:hover{
+	color: white;
+}
+.center{
+	text-align: center;
+	align-items: center;
+	margin: auto;
+}
+.line{
+	background-color: red;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.display{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	padding-top: 15%;
+	padding-bottom: 12%;
+	opacity: 80%;
+}
+.display p{
+	font-size: 1.2rem;
+}
+.display p:hover{
+	color: blue;
+}
+.questions{
+	padding-top: 2.5%;
+	padding-bottom: 2%;
+	background-color: white;
+}
+.questions h1{
+	padding-bottom: 8px;
+}
+.text{
+	margin-left: 9%;
+}
+.text h1{
+	padding-bottom: 7px;
+	margin-left: -5%;
+	padding-top: 1.5%;
+}
+ul li{
+	padding-bottom: 1.5%;
+}
+.text p{
+	margin-left: -7%;
+}
+.inputs .fields{
+	padding-top: 1.5%;
+}
+hr{
+	width: 98.5%;
+	background-color: blue;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 1%;
+	padding-top: 1%;
+	background-color: white;
+}
+.inputs{
+	background-color: lightgray;
+	padding-left: 3%;
+	padding-top: 3%;
+}
+.inputs p{
+	padding-bottom: 3%;
+}
+.email{
+	width: 99%;
+	margin-top: 0.9%;
+	margin-bottom: 0.9%;
+}
+.last{
+	margin-left: 25%;
+}
+input{
+	height: 25px;
+	width: 36.35%;
+}
+.age{
+	margin-left: 25%;
+}
+.btn{
+	background-color: blue;
+	height: 40px;
+	margin-top: 1.7%;
+	margin-bottom: 1%;
+	width: 30%;
+}
+.btnn{
+	background-color: lightgrey;
+	height: 40px;
+	width: 24%;
+	margin-left: 35%;
+	margin-bottom: 1%;
+}
+.section{
+	background-color: black;
+	color: lightgrey;
+	width: 200%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 1%;
+}
+body{
+	background-color: black;
+}
+@media (max-width: 1000px) {
+	.questions p{
+		font-size: 0.6rem;
+	}
+	.text li{
+		font-size: 0.6rem;
+	}
+	.text p{
+		font-size: 0.6rem;
+	}
+	.lucky{
+		margin-top: 20%;
+	}
+	.inputs p{
+		font-size: 0.59rem;
+	}
+	.last{
+		margin-left: 22.75%;
+	}
+	.age{
+		margin-left: 22.75%;
+	}
+	.inputs .fields{
+	padding-top: 23%;
+}
+}
